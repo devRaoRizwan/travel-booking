@@ -1,0 +1,89 @@
+{
+  "_note": "Synthetic fare offers. Prices are supplier-format decimal strings in PKR; they are parsed to integer PKR on load (fractions rounded half-up). Tax codes/amounts are plausible, not real.",
+  "fares": [
+    {
+      "id": "F-LHE-KHI-PK302",
+      "carrier": "PK", "flight_no": "PK302",
+      "origin": "LHE", "destination": "KHI", "depart_at": "2026-11-12T07:00:00+05:00",
+      "cabin": "Y", "fare_basis": "YFLEX", "international": false,
+      "base_fare": "16950.00",
+      "taxes": [
+        {"code": "FED", "name": "Federal Excise Duty", "amount": "2000.00", "refundable": true},
+        {"code": "PZ", "name": "CAA passenger facilitation charge", "amount": "500.00", "refundable": true},
+        {"code": "YQ", "name": "Carrier fuel surcharge", "amount": "3000.00", "refundable": false}
+      ],
+      "seats_left": 9,
+      "rules": {"refundable": true, "cancel_fee": "3500.00", "change_fee": "2000.00", "baggage": "20kg"}
+    },
+    {
+      "id": "F-LHE-KHI-PA401",
+      "carrier": "PA", "flight_no": "PA401",
+      "origin": "LHE", "destination": "KHI", "depart_at": "2026-11-12T18:30:00+05:00",
+      "cabin": "Y", "fare_basis": "YSAVER", "international": false,
+      "base_fare": "14200.00",
+      "taxes": [
+        {"code": "FED", "name": "Federal Excise Duty", "amount": "1650.00", "refundable": true},
+        {"code": "PZ", "name": "CAA passenger facilitation charge", "amount": "500.00", "refundable": true},
+        {"code": "YQ", "name": "Carrier fuel surcharge", "amount": "2750.00", "refundable": false}
+      ],
+      "seats_left": 4,
+      "rules": {"refundable": false, "cancel_fee": "0", "change_fee": null, "baggage": "15kg"}
+    },
+    {
+      "id": "F-KHI-DXB-EK601",
+      "carrier": "EK", "flight_no": "EK601",
+      "origin": "KHI", "destination": "DXB", "depart_at": "2026-11-20T04:15:00+05:00",
+      "cabin": "Y", "fare_basis": "YFLEXPK", "international": true,
+      "base_fare": "64800.00",
+      "taxes": [
+        {"code": "PK", "name": "Pakistan CAA departure charge", "amount": "3200.00", "refundable": true},
+        {"code": "RG", "name": "Pakistan advance income tax", "amount": "5000.00", "refundable": true},
+        {"code": "YQ", "name": "Carrier fuel surcharge", "amount": "11450.50", "refundable": false}
+      ],
+      "seats_left": 7,
+      "rules": {"refundable": true, "cancel_fee": "12000.00", "change_fee": "6000.00", "baggage": "30kg"}
+    },
+    {
+      "id": "F-KHI-DXB-FZ334",
+      "carrier": "FZ", "flight_no": "FZ334",
+      "origin": "KHI", "destination": "DXB", "depart_at": "2026-11-20T22:40:00+05:00",
+      "cabin": "Y", "fare_basis": "YLITE", "international": true,
+      "base_fare": "48900.50",
+      "taxes": [
+        {"code": "PK", "name": "Pakistan CAA departure charge", "amount": "3200.00", "refundable": true},
+        {"code": "RG", "name": "Pakistan advance income tax", "amount": "5000.00", "refundable": true},
+        {"code": "YQ", "name": "Carrier fuel surcharge", "amount": "8600.00", "refundable": false}
+      ],
+      "seats_left": 5,
+      "rules": {"refundable": false, "cancel_fee": "0", "change_fee": null, "baggage": "7kg cabin only"}
+    },
+    {
+      "id": "F-ISB-JED-SV723",
+      "carrier": "SV", "flight_no": "SV723",
+      "origin": "ISB", "destination": "JED", "depart_at": "2026-12-02T03:05:00+05:00",
+      "cabin": "Y", "fare_basis": "YSAVPK", "international": true,
+      "base_fare": "84250.50",
+      "taxes": [
+        {"code": "PK", "name": "Pakistan CAA departure charge", "amount": "3200.00", "refundable": true},
+        {"code": "RG", "name": "Pakistan advance income tax", "amount": "6000.00", "refundable": true},
+        {"code": "YQ", "name": "Carrier fuel surcharge", "amount": "14300.00", "refundable": false}
+      ],
+      "seats_left": 1,
+      "rules": {"refundable": true, "cancel_fee": "15000.00", "change_fee": "7500.00", "baggage": "2x23kg"}
+    },
+    {
+      "id": "F-ISB-JED-PK741",
+      "carrier": "PK", "flight_no": "PK741",
+      "origin": "ISB", "destination": "JED", "depart_at": "2026-12-02T10:20:00+05:00",
+      "cabin": "Y", "fare_basis": "YPKJED", "international": true,
+      "base_fare": "79990.00",
+      "taxes": [
+        {"code": "PK", "name": "Pakistan CAA departure charge", "amount": "3200.00", "refundable": true},
+        {"code": "RG", "name": "Pakistan advance income tax", "amount": "6000.00", "refundable": true},
+        {"code": "YQ", "name": "Carrier fuel surcharge", "amount": "12100.00", "refundable": false}
+      ],
+      "seats_left": 6,
+      "rules": {"refundable": true, "cancel_fee": "10000.00", "change_fee": "5000.00", "baggage": "40kg"}
+    }
+  ]
+}
