@@ -29,6 +29,8 @@ seed/fares.json     6 fares; PA401 and FZ334 non-refundable; SV723 has 1 seat
 
 ## API
 
+Request and response examples for every endpoint: SETUP.md.
+
 Auth: `Authorization: Bearer <token>`.
 - Partner key: `tpk_…`, scoped.
 - Customer token: `ctk_…`, 24h, one booking.
